@@ -2,7 +2,7 @@
 
 Webpack 4 boiler plate to kickstart my projects and you can use it too :). Much of the boiler plate is built upon [Tania Rascia's Webpack boiler plate](https://github.com/taniarascia/webpack-boilerplate).
 
-I included the Webpack DLL plugin and made a few customizations like adding a function to generate multiple HTML pages using [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin).
+I included the [Webpack DLL plugin](https://webpack.js.org/plugins/dll-plugin/) and made a few customizations like adding a function to generate multiple HTML pages using [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin).
 
 ### Installation
 
