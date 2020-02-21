@@ -1,0 +1,94 @@
+/**
+* -----------------------
+* Fonts
+* -----------------------
+*/
+@mixin font($family: $font-family-base-1) {
+  font-family: $family;
+}
+
+/**
+* -----------------------
+* Placeholder
+* -----------------------
+*/
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    opacity: 1;
+    @content;
+  }
+  &:-moz-placeholder {
+    opacity: 1;
+    @content;
+  }
+  &:-ms-input-placeholder {
+    opacity: 1;
+    @content;
+  }
+  &::-moz-placeholder {
+    opacity: 1;
+    @content;
+  }
+}
+
+/**
+* -----------------------
+* Background Sizing
+* -----------------------
+*/
+@mixin bg-sizing(
+  $bg-size: cover,
+  $repeat: no-repeat,
+  $position: center center
+) {
+  background-size: $bg-size;
+  background-repeat: $repeat;
+  background-position: $position;
+}
+
+/**
+* -----------------------
+* Flex
+* -----------------------
+*/
+@mixin display-flex(
+  $align-items: center,
+  $flex-wrap: wrap,
+  $flex-direction: row,
+  $justify-content: flex-start
+) {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-align-items: $align-items;
+  align-items: $align-items;
+  -ms-flex-wrap: $flex-wrap;
+  flex-wrap: $flex-wrap;
+  -ms-flex-direction: $flex-direction;
+  flex-direction: $flex-direction;
+  -ms-justify-content: $justify-content;
+  justify-content: $justify-content;
+}
+@mixin flex-direction($flex-direction: row) {
+  -ms-flex-direction: $flex-direction;
+  flex-direction: $flex-direction;
+}
+@mixin flex-align-items($align-items: center) {
+  -ms-align-items: $align-items;
+  align-items: $align-items;
+}
+@mixin flex-justify-content($justify-content: center) {
+  -ms-justify-content: $justify-content;
+  justify-content: $justify-content;
+}
+@mixin flex-item($flex-grow: 0, $flex-shrink: 1, $flex-basis: auto) {
+  -ms-flex: $flex-grow $flex-shrink $flex-basis;
+  flex: $flex-grow $flex-shrink $flex-basis;
+}
+@mixin flex-grow($flex-grow: 0) {
+  -ms-flex-grow: $flex-grow;
+  flex-grow: $flex-grow;
+}
+@mixin flex-item-order($flex-order: 1) {
+  -ms-flex-order: $flex-order;
+  order: $flex-order;
+}

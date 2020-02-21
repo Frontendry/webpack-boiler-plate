@@ -1,0 +1,68 @@
+/**
+* -----------------------
+* Reset
+* -----------------------
+*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: none;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  @include font;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  position: relative;
+}
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: 0;
+  outline-offset: 0;
+}
+ul,
+ol {
+  list-style: none;
+  margin-bottom: 0;
+}
+button {
+  outline: 0;
+}
+figure {
+  margin: 0;
+}
+strong,
+b {
+  font-weight: 700;
+  font-style: normal;
+}
+em,
+i {
+  font-style: italic;
+  font-weight: normal;
+}
+p {
+  font-size: 17px;
+  line-height: 156%;
+  padding: 0 0 10px;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 700;
+}
+hr {
+  margin-bottom: 0;
+}

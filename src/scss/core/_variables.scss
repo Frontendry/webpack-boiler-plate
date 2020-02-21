@@ -1,0 +1,193 @@
+/**
+* -----------------------
+* Paths
+* -----------------------
+*/
+$images-path: "../imgs/";
+
+/**
+* -----------------------
+* Typography
+* -----------------------
+*/
+$font-family-base-1: "Ubuntu", sans-serif !default;
+
+$font-size-base: 1rem !default;
+$font-size-xlg: $font-size-base * 1.5 !default;
+$font-size-lg: $font-size-base * 1.25 !default;
+$font-size-sm: $font-size-base * 0.875 !default;
+
+$font-weight-medium: 500 !default;
+
+/**
+* -----------------------
+* Custom Spacing
+* -----------------------
+*/
+$x-space-1: 15px !default;
+$x-space-2: 4% !default;
+$x-space-3: 7% !default;
+$x-space-4: 10% !default;
+$x-space-5: 5.5% !default;
+
+/**
+ * -----------------------
+ * Spacing
+ * -----------------------
+ */
+
+$spacer: 1rem !default;
+
+$spacers: () !default;
+$spacers: map-merge(
+  (
+    0: 0,
+    1: (
+      $spacer * 0.25
+    ),
+    2: (
+      $spacer * 0.5
+    ),
+    3: $spacer,
+    4: (
+      $spacer * 1.5
+    ),
+    5: (
+      $spacer * 2
+    ),
+    6: (
+      $spacer * 2.5
+    ),
+    7: (
+      $spacer * 3
+    ),
+    8: (
+      $spacer * 3.5
+    ),
+    9: (
+      $spacer * 4
+    ),
+    10: (
+      $spacer * 4.5
+    ),
+    11: (
+      $spacer * 5
+    ),
+    12: (
+      $spacer * 5.5
+    ),
+    13: (
+      $spacer * 6
+    ),
+    14: (
+      $spacer * 6.5
+    ),
+    15: (
+      $spacer * 7
+    ),
+    16: (
+      $spacer * 7.5
+    ),
+    17: (
+      $spacer * 8
+    ),
+    18: (
+      $spacer * 8.5
+    ),
+    19: (
+      $spacer * 9
+    ),
+    20: (
+      $spacer * 9.5
+    ),
+    21: (
+      $spacer * 10
+    ),
+    22: (
+      $spacer * 10.5
+    ),
+    23: (
+      $spacer * 11
+    ),
+    24: (
+      $spacer * 11.5
+    ),
+    25: (
+      $spacer * 12
+    ),
+    26: (
+      $spacer * 12.5
+    ),
+    27: (
+      $spacer * 13
+    ),
+    28: (
+      $spacer * 13.5
+    ),
+    29: (
+      $spacer * 14
+    ),
+    30: (
+      $spacer * 14.5
+    )
+  ),
+  $spacers
+);
+$el-bottom-space: 5rem;
+
+/**
+* -----------------------
+* Sizes
+* -----------------------
+*/
+
+$sizes: () !default;
+// stylelint-disable-next-line scss/dollar-variable-default
+$sizes: map-merge(
+  (
+    5: 5%,
+    10: 10%,
+    15: 15%,
+    20: 20%,
+    25: 25%,
+    30: 30%,
+    35: 35%,
+    40: 40%,
+    45: 45%,
+    50: 50%,
+    55: 55%,
+    60: 60%,
+    65: 65%,
+    70: 70%,
+    75: 75%,
+    80: 80%,
+    85: 85%,
+    90: 90%,
+    95: 95%,
+    100: 100%,
+    105: 105%,
+    110: 110%,
+    115: 115%,
+    120: 120%,
+    auto: auto
+  ),
+  $sizes
+);
+
+/**
+* -----------------------
+* Z-Index
+* -----------------------
+*/
+$z-index-1: 10 !default;
+$z-index-2: 50 !default;
+$z-index-3: 100 !default;
+$z-index-4: 200 !default;
+
+/**
+* -----------------------
+* Transition
+* -----------------------
+*/
+
+$transition-base: all ease-in-out 0.3s !default;

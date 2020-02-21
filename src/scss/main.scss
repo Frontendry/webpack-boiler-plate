@@ -1,0 +1,26 @@
+/**
+* -----------------------
+* App Variables
+* -----------------------
+*/
+@import "./core/variables";
+
+/* -----------------------
+* App Mixins
+* -----------------------
+*/
+@import "./core/mixins";
+
+/**
+* -----------------------
+* Bootstrap Core
+* -----------------------
+*/
+@import "../vendor/bootstrap/scss/bootstrap";
+
+/**
+* -----------------------
+* App Core
+* -----------------------
+*/
+@import "./core/app";
