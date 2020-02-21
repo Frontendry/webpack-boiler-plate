@@ -24,7 +24,7 @@ const multipleHtmlsWebpackPlugin = function() {
     return new HtmlWebpackPlugin({
       template: `${htmlsDir}/${name}.${extension}`,
       filename: `${name}.html`,
-      title: "DMS"
+      title: "Frontendry Webpack Boilerplate"
     });
   });
 
