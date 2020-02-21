@@ -1,6 +1,6 @@
 ## Webpack Boiler Plate:
 
-Webpack boiler plate to kickstart my projects and you can use it too :). Much of the boiler plate is built on [Tania Rascia's webpack boiler plate](https://github.com/taniarascia/webpack-boilerplate).
+Webpack 4 boiler plate to kickstart my projects and you can use it too :). Much of the boiler plate is built upon [Tania Rascia's Webpack boiler plate](https://github.com/taniarascia/webpack-boilerplate).
 
 I included the Webpack DLL plugin and made a few customizations from the [origin](https://github.com/taniarascia/webpack-boilerplate).
 
