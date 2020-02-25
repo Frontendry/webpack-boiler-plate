@@ -7,7 +7,7 @@ I included the [Webpack DLL plugin](https://webpack.js.org/plugins/dll-plugin/) 
 ### Installation
 
 ```
-https://github.com/Frontendry/webpack-boiler-plate
+git clone https://github.com/Frontendry/webpack-boiler-plate
 
 npm i
 
